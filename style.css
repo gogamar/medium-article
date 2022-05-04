@@ -1,0 +1,78 @@
+body {
+  background: #ededed;
+  color: #3d4256;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+h1 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 42px;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 35px;
+  font-style: italic;
+  line-height: 2;
+}
+
+h3 {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #2b5c80;
+  font-size: 30px;
+  line-height: 2;
+}
+
+.container {
+  margin: 50px auto;
+  text-align: left;
+  width: 80%;
+}
+
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 100px 0;
+}
+
+.link {
+  background-image: linear-gradient(to bottom, rgb(233, 253, 240, 1), rgb(233, 253, 240, 1));
+  color:rgb(106, 103, 103);
+  padding: 10px;
+  text-decoration: none;
+}
+
+.link:hover {
+  background-image: linear-gradient(to bottom, rgb(171, 248, 198), rgb(171, 248, 198));
+  color:#5e5e60;
+}
+
+/* Media queries */
+/* @media(max-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 400px;
+  }
+} */
